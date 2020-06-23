@@ -1,0 +1,116 @@
+html{
+overflow-x: hidden;
+}
+
+#gameBoard{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    /* align-items: center; */
+    justify-content: center;
+    flex-grow: 1;
+    margin: 1rem auto;
+    transition: 0.3s;
+}
+button{
+    padding:0.5rem;
+    margin:0.1rem;
+    transition:0.4s;
+    cursor: pointer;
+    border:0.5px solid blue;
+    background:none;
+     align-items: center;
+
+    
+}
+button:hover{
+    background:rgb(245, 219, 76);
+}
+.help{
+display:flex;
+justify-content: center;
+}
+#callToAFriend,
+#questionToTheCrowd,
+#halfOnHalf{     
+    cursor: pointer;
+    border:0.5px solid blue;
+    background:none;
+     align-items: center;
+     width: 200px;
+    padding:1rem;
+    margin:0.1rem;
+    transition:0.2s
+ }
+ #callToAFriend:hover,
+#questionToTheCrowd:hover,
+#halfOnHalf:hover{
+background:rgb(247, 247, 253);
+}
+
+#tip,
+#question{
+    font-size: 22px;
+    margin:0.5rem auto;
+}
+
+h2,h1{
+    margin:0.5rem auto;
+    text-align: center;
+}
+.imagequestion{
+    display:flex;
+    justify-content: center;
+}
+/* .imagequestion img{
+   
+    width:600px;
+    height: 380px;
+    object-fit: cover;
+    align-items: center;
+    margin:1rem
+} */
+div.picturepicture img{
+   
+    width:600px;
+    height: 380px;
+    object-fit: cover;
+    align-items: center;
+    margin:1rem
+}
+
+
+
+.fade{
+    opacity:0;
+}
+/* __________ */
+.questionNumberAll{
+    font-size:32px;
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    opacity:0;
+    transition:0.3s;
+
+}
+.questionNumberAll:hover{
+    opacity:1
+}
+.prize{
+    transition: 0.5s;
+    
+}
+.prize-img{
+    width:600px;
+    height:600px;
+    object-fit: cover;
+
+}
+/* .imgPrize{
+         transform: scale(2);
+         width:400px;
+         height:400px
+
+} */
+
